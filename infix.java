@@ -25,7 +25,6 @@ public class Infix {
 					a = a.substring(0, i-1) + "p" + a.substring(i+2);
 					i-= 1;
 					c += 1;
-					System.out.println(place1);
 				}
 				else if (c == 1) {
 					k = a.substring(i-1, i);
@@ -54,8 +53,6 @@ public class Infix {
 			cnt += 1;
 			}
 		result += group;
-		
-		System.out.println(result);
 		
 		int g = 0;
 		while(g < result.length()) {
